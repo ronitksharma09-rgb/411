@@ -22,7 +22,7 @@ def dtccaip_check(target):
     
     return " The LLC could not be found under DTCC AIP."
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/backend", methods=["GET", "POST"])
 def index():
     message = ""
     if request.method == "POST":
